@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="src/test/|src/|src/test/java/nl/tudelft/jpacman/board/|src/test/java/nl/tudelft/jpacman/board/|src/main/java/nl/tudelft/jpacman/board/|src/main/java/nl/tudelft/jpacman/board/" kind="src" path="jpacman"/>
+	<classpathentry kind="src" path="jpacman/src/test/java/nl/tudelft/jpacman/board"/>
+	<classpathentry kind="src" path="jpacman/src/main/java/nl/tudelft/jpacman/board"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
